@@ -11,6 +11,7 @@ int y= (int)(Math.random()*800);
  	{
  		colony[p] = new Bacteria(250,250);
  	}
+ 	noLoop();
  }   
 
  void draw()   

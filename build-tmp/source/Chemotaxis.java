@@ -27,6 +27,7 @@ int y= (int)(Math.random()*800);
  	{
  		colony[p] = new Bacteria(250,250);
  	}
+ 	noLoop();
  }   
 
  public void draw()   
@@ -80,7 +81,7 @@ int y= (int)(Math.random()*800);
 		}
 		stroke(255);
 		textSize(15);
-		text("Bugs Caught: " + numBugs, 50,450);
+		text("Catch the Bugs!!!", 50,450);
 	} 
 
 	public void MousePressed()
