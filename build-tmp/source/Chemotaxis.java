@@ -27,7 +27,6 @@ int y= (int)(Math.random()*800);
  	{
  		colony[p] = new Bacteria(250,250);
  	}
- 	noLoop();
  }   
 
  public void draw()   
@@ -83,11 +82,6 @@ int y= (int)(Math.random()*800);
 		textSize(15);
 		text("Catch the Bugs!!!", 50,450);
 	} 
-
-	public void MousePressed()
-	{
-		redraw();
-	}
  }  
   static public void main(String[] passedArgs) {
     String[] appletArgs = new String[] { "Chemotaxis" };

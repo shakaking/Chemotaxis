@@ -66,9 +66,4 @@ int y= (int)(Math.random()*800);
 		textSize(15);
 		text("Catch the Bugs!!!", 50,450);
 	} 
-
-	void MousePressed()
-	{
-		redraw();
-	}
  }  
